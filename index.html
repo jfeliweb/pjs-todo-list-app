@@ -1,18 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
+  <head>
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="lib/style.css" />
+  </head>
 
-<head>
-  <title>Todo List App</title>
-  <link rel="stylesheet" href="lib/style.css">
-</head>
+  <body>
+    <h1>Todo List!</h1>
 
-<body>
-  <h1>Todo List!</h1>
-
-  <button id="displayTodosButton">Display Todo</button>
-  <button id="toggleAllButton">Toggle All</button>
-</body>
-<script src="lib/script.js"></script>
-
+    <button onclick="handlers.displayTodos()">Display Todo</button>
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+  </body>
+  <script src="lib/script.js"></script>
 </html>
